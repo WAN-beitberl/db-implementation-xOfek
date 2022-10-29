@@ -1,8 +1,10 @@
 public class test {
 
 	public static void main(String[] args) {
-		System.out.println("Does this work?");
-		
+		table t = new Table;
+		table.insertColumnNames("name", "last_name");
+		table.insertRow("Israel", "Israeli");
+		table.getValue("name", 1);
 	}
 
 }
