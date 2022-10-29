@@ -1,10 +1,12 @@
+import Table.java;
+
 public class test {
 
 	public static void main(String[] args) {
-		table t = new Table;
-		table.insertColumnNames("name", "last_name");
-		table.insertRow("Israel", "Israeli");
-		table.getValue("name", 1);
+		Table t = new Table();
+		t.insertColumnNames("name", "last_name");
+		t.insertRow("Israel", "Israeli");
+		System.out.println(t.getValue("name", 1));
 	}
 
 }
