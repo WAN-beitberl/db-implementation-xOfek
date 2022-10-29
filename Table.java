@@ -22,7 +22,7 @@ public class Table
 		this.CurrentRow++;
 	}
 	
-	public String GetValue(String Category, int Row)
+	public String getValue(String Category, int Row)
 	{
 		// If category is in row 0
 		if(this.Matrix[0][0] == Category)

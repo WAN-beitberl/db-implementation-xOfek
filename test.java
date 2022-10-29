@@ -1,4 +1,3 @@
-import Table.java;
 
 public class test {
 
